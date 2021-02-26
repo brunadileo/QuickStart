@@ -10,5 +10,5 @@
         <members>homePage</members>
         <name>StaticResource</name>
     </types>
-    <version>40.0</version>
+    <version>50.0</version>
 </Package>
