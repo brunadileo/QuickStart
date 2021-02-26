@@ -2,10 +2,11 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Lightning Bolt</fullName>
     <types>
-        <members>quickStart1_My_Profile</members>
+        <members>quickStart1_Home</members>
         <name>FlexiPage</name>
     </types>
     <types>
+        <members>bootstarpjsfile</members>
         <members>homePage</members>
         <name>StaticResource</name>
     </types>
