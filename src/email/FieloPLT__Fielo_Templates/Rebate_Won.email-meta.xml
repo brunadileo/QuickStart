@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>FieloPLT__PLT_Letterhead</letterhead>
+    <name>Rebate Won</name>
+    <style>formalLetter</style>
+    <subject>Congrats - You won rebate!</subject>
+    <textOnly>Hello , {!Opportunity.Member__c}
+
+Congratulations, you won rebate!
+
+
+
+Regards,
+
+&lt;Company Name&gt;</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -28,6 +28,11 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>FieloPLT__Fielo_Templates/AcceptAgreement</members>
+        <members>FieloPLT__Fielo_Templates/Rebate_Won</members>
+        <name>EmailTemplate</name>
+    </types>
+    <types>
         <members>quickStart1_Contact</members>
         <members>quickStart1_Course_Detail</members>
         <members>quickStart1_Course_List</members>
@@ -69,5 +74,5 @@
         <members>siteAsset_493e1baa4cfe4f3f81ed26d4444d0db0</members>
         <name>StaticResource</name>
     </types>
-    <version>51.0</version>
+    <version>50.0</version>
 </Package>
