@@ -20,19 +20,6 @@
     </types>
     <types>
         <members>quickStart1_Contact</members>
-        <members>quickStart1_Course_Detail</members>
-        <members>quickStart1_Course_List</members>
-        <members>quickStart1_Course_Related_List</members>
-        <members>quickStart1_Frequently_Asked_Questions_Frequent_asked_questions</members>
-        <members>quickStart1_Home</members>
-        <members>quickStart1_Module_Detail</members>
-        <members>quickStart1_Module_Response_Detail</members>
-        <members>quickStart1_My_Courses</members>
-        <members>quickStart1_My_Courses_teste_curso</members>
-        <members>quickStart1_My_Incentives</members>
-        <members>quickStart1_My_Profile</members>
-        <members>quickStart1_My_Rewards</members>
-        <members>quickStart1_Terms_and_Conditions</members>
         <name>FlexiPage</name>
     </types>
     <types>
