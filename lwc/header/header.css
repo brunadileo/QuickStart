@@ -1,0 +1,38 @@
+.inner-container{ width:1170px; margin:0px auto;}
+/* dont edit this selector. these settings should keep the logo always fitting by default. see below examples for how to edit  */
+.navbar-brand>img {
+    max-height: 100%; /* resize DOWN to height of container which is set to 50px */
+    height: 100%; /* resize UP to fit*/
+    max-width: 100%;  /*probably not necessary */
+    width: auto; /* resize based on height */
+    margin: 0 auto;
+
+-o-object-fit: contain; /* Opera Support */
+      object-fit: contain; /* Resize down to fit container */}
+/* Default Navbar Brand Settings. Use this to resize or move your logo up and down */
+.navbar-brand {
+padding: 15px 15px; /*adjust the top/bottom padding if your logo looks too small */
+margin-top: 0px; /* you can adjust this if your logo needs to be moved up or down but simply adjusting the padding is easier */
+height: 50px; /* this should be equal to computed height of .navbar-nav>li>a */}
+/* Example 2 (larger logo) - simply adjust top bottom padding to make logo larger */
+.example2 .navbar-brand {    padding: 7px 15px;}
+.example3 .navbar-brand {    height: 80px;}
+/* line height is 20px so add 30px top and bottom to equal the new .navbar-brand height */
+.example3 .nav >li >a {    padding-top: 30px;    padding-bottom: 30px;}
+/* example showing how it doen't matter the image dimensions because the image will scale. */
+.example4 .navbar-brand { padding: 7px 14px;}
+.navbar-nav{ float: right !important;}
+.navbar-default{ background-color: transparent !important; border: 0px !important; margin: 48px auto 0;}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:focus, 
+.navbar-default .navbar-nav > .active > a:hover{ background-color: transparent !important;}
+.navbar-default .navbar-nav > li > a { font-family: Roboto,sans-serif;color: #262626 !important; font-size: 20px;font-weight: 300;}
+.navbar-header a{color: #404040 !important; font-size: 30px;font-weight: 600;font-family: Roboto,sans-serif;}
+
+.showMenu{
+    display:block !important;
+
+}
+
+
+@media (max-width: 1024px){.navbar-nav{ float: none !important ;}}

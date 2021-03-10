@@ -1,0 +1,20 @@
+/***** footer start ******/
+.inner-container{ width:1170px; margin:0px auto;}
+.footer{ background-color: #EFF1FD; padding: 70px 15px 25px 15px;}
+.footer .company-name{ font-size: 30px; line-height: 40px; font-family: 'Roboto', sans-serif;  color: #404040; font-weight: 600;text-align: left;}
+.footer ul{ margin-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px;}
+.footer ul li{ list-style: none; margin-bottom: 30px;}
+.footer ul li a{ font-size: 20px; line-height: 32px; font-family: 'Roboto', sans-serif;  color: #333333; font-weight: 300;}
+.footer ul li a:hover{ text-decoration: none;}
+.footer-copyright{text-align: center; margin-top: 100px;font-size: 16px; line-height: 24px; color: #999999;font-family: 'Roboto', sans-serif; font-weight: 400;}
+/***** footer end ******/
+
+@media only screen and (min-width:1025px) and (max-width:1200px){
+    .inner-container{ width:950px;}
+    }
+@media only screen and (min-width:768px) and (max-width:1024px){
+    .inner-container{ width:750px; margin:0px auto;}
+    }
+    @media only screen and (min-width:0px) and (max-width:767px){
+    .inner-container{ width:100%; margin:0px auto;}
+    }

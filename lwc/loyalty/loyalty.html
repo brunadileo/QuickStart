@@ -1,0 +1,66 @@
+<template>
+  <div class="your-loyalty-program-bg">
+    <lightning-layout multiple-rows="true" class="">
+      <lightning-layout-item size="12">
+        <div class="your-loyalty-program-head">Your Incentives Program</div>
+      </lightning-layout-item>
+    </lightning-layout>
+
+    <div class="your-loyalty-program-cards">
+      <div class="your-loyalty-program-card">
+        <div class="doted-cercle-incentives">
+          <div class="cercle-incentives">
+            <img src={my_incentives_iconUrl} alt="" />
+          </div>
+        </div>
+
+        <div class="your-loyalty-program-card-name">Incentives</div>
+
+        <div class="your-loyalty-program-card-dis">
+          Business goals that will make your company increase revenue!
+        </div>
+
+        <div class="go-to-btn">
+          <a onclick={navigateToMyIncentivesPage}>Go to Incentives</a>
+        </div>
+      </div>
+
+      <div class="your-loyalty-program-card">
+        <div class="doted-cercle-rewards">
+          <div class="cercle-rewards">
+            <img src={my_rewards_iconUrl} alt="" />
+          </div>
+        </div>
+
+        <div class="your-loyalty-program-card-name">Rewards</div>
+
+        <div class="your-loyalty-program-card-dis">
+          Earn Rebates achieving sales goals and Badges completing a training
+          course!
+        </div>
+
+        <div class="go-to-btn">
+          <a onclick={navigateToMyRewardsPage}>Go to Rewards</a>
+        </div>
+      </div>
+
+      <div class="your-loyalty-program-card">
+        <div class="doted-cercle-courses">
+          <div class="cercle-courses">
+            <img src={my_courses_iconUrl} alt="" />
+          </div>
+        </div>
+
+        <div class="your-loyalty-program-card-name">Courses</div>
+
+        <div class="your-loyalty-program-card-dis">
+          Improve the knowledge of your team in order to increase sales!
+        </div>
+
+        <div class="go-to-btn">
+          <a onclick={navigateToMyCoursesPage}>Go to Courses</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

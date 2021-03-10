@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CommunityThemeDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <bundlesInfo>
+        <description>Custom Css</description>
+        <order>1</order>
+        <title>Custom CSS</title>
+        <type>Highlight</type>
+    </bundlesInfo>
+    <bundlesInfo>
+        <image>siteAsset_493e1baa4cfe4f3f81ed26d4444d0db0</image>
+        <order>1</order>
+        <title>siteAsset_493e1baa4cfe4f3f81ed26d4444d0db0</title>
+        <type>PreviewImage</type>
+    </bundlesInfo>
+    <defaultBrandingSet>quickStart1</defaultBrandingSet>
+    <description>Batata</description>
+    <enableExtendedCleanUpOnDelete>true</enableExtendedCleanUpOnDelete>
+    <masterLabel>quickStart1</masterLabel>
+    <publisher>Valuenet</publisher>
+    <themeSetting>
+        <themeLayout>quickStart1_themeLayout_Login</themeLayout>
+        <themeLayoutType>Login</themeLayoutType>
+    </themeSetting>
+    <themeSetting>
+        <themeLayout>quickStart1_themeLayout_Default</themeLayout>
+        <themeLayoutType>Inner</themeLayoutType>
+    </themeSetting>
+</CommunityThemeDefinition>

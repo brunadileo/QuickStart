@@ -1,0 +1,61 @@
+.clear{ clear: both;}
+/***** home banner start *****/
+.home-banner-bg{background-size: cover; background-repeat: no-repeat; background-position: center top; position: relative; background-color: #fff;}
+.inner-container{ width:1200px; margin:0px auto;}
+.oval-helf{position: absolute; top: 886px; left: 0;}
+.home-banner{ padding: 250px 0px 0px 0px;}
+.hitech{ font-weight: 600; font-family: 'Montserrat', sans-serif; letter-spacing: 6px; line-height: 19px; color: #DEA04F; text-transform: uppercase; font-size: 19px;margin-bottom: 60px; }
+.quickstart{ font-weight: 700; font-family: 'Roboto', sans-serif; line-height: 60px; color: #fff;font-size: 60px;margin-bottom: 60px; }
+.quickstart-dis{ font-weight: 300; font-family: 'Roboto', sans-serif; line-height: 30px; color: #fff;font-size: 30px;margin-bottom: 100px; }
+.home-about-program-box{background-size: contain; background-repeat: no-repeat; background-position: right; background-color: #fff;}
+.home-about-program-textbox {max-width: 585px; padding: 48px}
+.home-about-program-textbox h1{ font-size: 30px; line-height: 30px; color: #000; font-weight: 400; margin: 0px; padding: 0px 0px 30px 0px;}
+.home-about-program-textbox p{ font-size: 16px; line-height: 26px; color: #7E8085; font-weight: 400; margin: 0px; padding: 0px 0px 30px 0px;}
+.index-graph-box{ position: relative;}
+.index-box{ position: absolute; z-index: 9999; top: 0; left: 0; width: 370px; background-color: #3E369A;box-shadow: 10px 20px 40px #00000034;border-radius: 24px; padding: 33px 32px 0px 32px;}
+.graph-box{  position: absolute; right: 0; margin-top: 150px; width: 338px; background-color: #fff;box-shadow: 5px 10px 30px #00000018;border-radius: 18px; padding: 15px 15px 15px 15px;}
+.graph-oval-bg{background-repeat: no-repeat; background-position: 55px 75px; min-height: 360px;}
+.learnmore{ display: flex; margin-top: 30px;}
+.learnmore a{border-radius: 24px;background-color: #3E369A; padding: 15px 38px;font-weight: 600; font-family: 'Montserrat', sans-serif;line-height: 19px; font-size: 16px; color: #fff;}
+.learnmore a:hover{text-decoration: none;}
+.index{ font-weight: 600; font-size: 16px; font-family: 'Montserrat', sans-serif; letter-spacing: 5px; line-height: 32px; color: #DEA04F; text-transform: uppercase; padding-bottom: 12px;}
+.points{border-bottom: 1px solid rgba(255, 255, 255, .5); margin-bottom: 64px;}
+.points-numbr{ font-size: 72px; line-height: 80px; color: #fff; font-weight: 500; font-family: 'Montserrat', sans-serif; float: left;}
+.points-dis{  float: right;}
+.points-dis-head{font-weight: 400; font-family: 'Montserrat', sans-serif;line-height: 32px; font-size: 16px; color: #fff;}
+.points-count{font-weight: 400; font-family: 'Montserrat', sans-serif;line-height: 32px; font-size: 16px; color: #fff;}
+/***** home banner end *****/
+
+
+.btn-transparent{ margin-top: 96px;}
+.btn-transparent a{padding: 15px 35px;font-weight: 600; font-family: 'Montserrat', sans-serif; line-height: 19px; font-size: 16px; color: #3E369A;border: 2px solid #3F379B;border-radius: 24px; background-color: transparent;}
+.btn-transparent a:hover{ text-decoration: none;}
+
+@media only screen and (min-width:1025px) and (max-width:1200px){
+    .inner-container{ width:950px;}
+    .home-about-program-textbox {max-width: 490px;}
+    .home-about-program-textbox {padding: 24px}
+}
+
+@media only screen and (max-width: 1024px) {
+    .home-about-program-box{background-image: unset !important}
+    .home-about-program-textbox {max-width: unset}
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px){
+.my-program-homepage-bg {background-size: cover;}
+.inner-container{ width:750px; margin:0px auto;}
+.index-box{width: 100%;}
+.home-about-program-textbox{padding-right: 30px;}
+}
+
+@media only screen and (min-width:0px) and (max-width:767px){
+.home-about-program-box {padding: 30px 10px 0px 10px; margin-bottom: 100px !important;}
+.inner-container{ width:100%; margin:0px auto;}
+.home-banner-bg{padding: 0px 15px;}
+.index-box{width: 100%; padding: 20px 20px 0;}
+.graph-box{width: 100%;margin-top: 250px;}
+.graph-oval-bg{min-height: 400px;}
+.btn-transparent{ margin-top:40px;}
+.footer ul li{ margin-bottom: 10px;}
+}

@@ -1,0 +1,75 @@
+<template>
+  <!-- footer start -->
+  <div class="footer">
+    <lightning-layout multiple-rows="true" class="inner-container">
+      <lightning-layout-item size="12" small-device-size="12"
+        medium-device-size="12" large-device-size="4">
+        <div class="company-name">ACME Inc </div>
+      </lightning-layout-item>
+
+      <lightning-layout-item size="12" small-device-size="12"
+        medium-device-size="3" large-device-size="2">
+        <ul>
+          <!--<li><a href="./about">About</a></li>-->
+          <li>
+            <a onclick={navigateToMyProfilePage}>My Profile</a>
+          </li>
+        </ul>
+      </lightning-layout-item>
+
+      <lightning-layout-item size="12" small-device-size="12"
+        medium-device-size="3" large-device-size="2">
+        <ul>
+          <li>
+            <a onclick={navigateToMyIncentivesPage}>My Incentives</a>
+          </li>
+
+          <li>
+            <a onclick={navigateToMyRewardsPage}>My Rewards</a>
+          </li>
+
+          <li>
+            <a onclick={navigateToMyCoursesPage}>My Courses</a>
+          </li>
+        </ul>
+      </lightning-layout-item>
+
+      <lightning-layout-item size="12" small-device-size="12"
+        medium-device-size="3" large-device-size="2">
+        <ul>
+          <li>
+            <a onclick={navigateToFaqPage}>FAQ</a>
+          </li>
+
+          <li>
+            <a onclick={navigateToContactPage}>Contact</a>
+          </li>
+        </ul>
+      </lightning-layout-item>
+
+      <lightning-layout-item size="12" small-device-size="12"
+        medium-device-size="3" large-device-size="2">
+        <ul>
+          <!-- <li><a href="#!">Cookies policy</a></li> -->
+          <li>
+            <a onclick={navigateToTermsConditionsPage}>Terms and
+              Conditions
+            </a>
+          </li>
+        </ul>
+      </lightning-layout-item>
+    </lightning-layout>
+
+    <lightning-layout multiple-rows="true" class="inner-container">
+      <lightning-layout-item flexibility="auto" padding="around-small"
+        size="12">
+        <div class="footer-copyright">
+          <div class="container-fluid">
+            Copyright © 2029. All Rights Reserved.
+          </div>
+        </div>
+      </lightning-layout-item>
+    </lightning-layout>
+  </div>
+  <!-- footer end -->
+</template>

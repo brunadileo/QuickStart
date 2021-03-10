@@ -1,0 +1,42 @@
+.your-loyalty-program-bg {max-width: 1200px; margin: 0 auto; padding: 10rem 0}
+.your-loyalty-program-head{ font-size: 44px; line-height: 48px; color: #000; font-weight: 400; margin-bottom: 75px; text-align: center;}
+.your-loyalty-program-cards {display: flex; align-items: center; justify-content: center;}
+.your-loyalty-program-card{ max-width: 290px; text-align: center;}
+.your-loyalty-program-card + .your-loyalty-program-card {margin-left:64px;}
+.your-loyalty-program-card-name{ font-size: 24px; line-height: 30px; color: #2B2B2B; font-weight: 600;padding-bottom: 20px; padding-top: 30px;}
+.your-loyalty-program-card-dis{ font-size: 16px; line-height: 26px; color: #7B7B7B; font-weight: 300;padding-bottom: 20px; text-align: center;}
+.doted-cercle-incentives{ height: 170px; width: 170px; border-radius: 50%; border: 3px dashed rgba(74, 59, 186, .5);margin: 0px auto; padding: 13px;}
+.cercle-incentives{ background-color: #433797;  box-shadow: 10px 20px 40px #0B006134; height: 138px; width: 138px; border-radius: 50%;margin: 0px auto; line-height: 138px;}
+.doted-cercle-rewards{ height: 170px; width: 170px; border-radius: 50%; border: 3px dashed rgba(224, 142, 131, .5);margin: 0px auto; padding: 13px;}
+.cercle-rewards{ background-color: #C08878;  box-shadow: 10px 20px 40px #57090032; height: 138px; width: 138px; border-radius: 50%;margin: 0px auto; line-height: 138px;}
+.doted-cercle-courses{ height: 170px; width: 170px; border-radius: 50%; border: 3px dashed rgba(246, 180, 133, .75);margin: 0px auto; padding: 13px;}
+.cercle-courses{ background-color: #EAA36E;  box-shadow: 10px 20px 40px #53230033; height: 138px; width: 138px; border-radius: 50%;margin: 0px auto; line-height: 138px;}
+.go-to-btn{ display: flex; align-items: center; justify-content: center; margin-top: 30px;}
+.go-to-btn a{padding: 15px 35px;font-weight: 600; font-family: 'Montserrat', sans-serif; line-height: 19px; font-size: 16px; color: #3E369A;border: 2px solid #3F379B;border-radius: 24px; background-color: transparent;}
+.go-to-btn a:hover{ text-decoration: none;}
+
+@media (max-width: 1400px) {
+    .your-loyalty-program-bg {padding:3rem 0}
+}
+
+@media (max-width: 1199px) {
+    .your-loyalty-program-card + .your-loyalty-program-card {margin-left:48px;}
+}
+
+
+@media (max-width: 990px) {
+    .your-loyalty-program-bg {padding: 10rem 16px}
+    .your-loyalty-program-card + .your-loyalty-program-card {margin-left:32px;}
+}
+
+@media (max-width:767px) {
+    .your-loyalty-program-bg {padding:0}
+    .your-loyalty-program-cards {
+        flex-direction: column;
+    }
+
+    .your-loyalty-program-card + .your-loyalty-program-card {
+        margin-left:0;
+        margin-top: 64px;
+    }
+}

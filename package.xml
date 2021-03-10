@@ -2,6 +2,14 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>QuickStart v2</fullName>
     <types>
+        <members>quickStart1</members>
+        <name>BrandingSet</name>
+    </types>
+    <types>
+        <members>quickStart1</members>
+        <name>CommunityThemeDefinition</name>
+    </types>
+    <types>
         <members>FieloPLT__ChallengeReward__c.RebateConversionMode__c</members>
         <members>FieloPLT__ChallengeReward__c.RebateConversionValue__c</members>
         <members>FieloPLT__ChallengeReward__c.RebateFieldName__c</members>
@@ -15,10 +23,23 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>quickStart1_Home</members>
+        <members>quickStart1_themeLayout_Default</members>
+        <members>quickStart1_themeLayout_Login</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>header</members>
+        <members>homeFooter</members>
+        <members>homePage</members>
+        <members>loyalty</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
         <members>bootstarpjsfile</members>
         <members>homePage</members>
         <members>siteAsset_493e1baa4cfe4f3f81ed26d4444d0db0</members>
         <name>StaticResource</name>
     </types>
-    <version>47.0</version>
+    <version>51.0</version>
 </Package>
