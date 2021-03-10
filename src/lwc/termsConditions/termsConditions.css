@@ -1,0 +1,15 @@
+.termsconditions-section{ padding-top: 100px; padding-bottom: 100px;}
+.termsconditions{ font-size: 25px; text-align: left;font-weight: 500;color: #262626;margin-bottom: 20px;}
+.termsconditions-text p{ font-size: 14px; line-height:20px;font-weight: 500;color: #868686;margin-bottom: 20px;}
+
+
+@media only screen and (min-width:768px) and (max-width:1024px){
+  
+}
+
+
+@media only screen and (min-width:0px) and (max-width:767px){
+    .termsconditions-section{ padding: 50px 15px;}  
+    
+
+}

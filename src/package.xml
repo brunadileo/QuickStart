@@ -2,6 +2,10 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>QuickStart v2</fullName>
     <types>
+        <members>ContactUs</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
         <members>quickStart1</members>
         <name>BrandingSet</name>
     </types>
@@ -23,16 +27,39 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>quickStart1_Contact</members>
+        <members>quickStart1_Course_Detail</members>
+        <members>quickStart1_Course_List</members>
+        <members>quickStart1_Course_Related_List</members>
+        <members>quickStart1_Frequently_Asked_Questions_Frequent_asked_questions</members>
         <members>quickStart1_Home</members>
+        <members>quickStart1_Module_Detail</members>
+        <members>quickStart1_Module_Response_Detail</members>
+        <members>quickStart1_My_Courses</members>
+        <members>quickStart1_My_Courses_teste_curso</members>
+        <members>quickStart1_My_Incentives</members>
+        <members>quickStart1_My_Profile</members>
+        <members>quickStart1_My_Rewards</members>
+        <members>quickStart1_Terms_and_Conditions</members>
         <members>quickStart1_themeLayout_Default</members>
         <members>quickStart1_themeLayout_Login</members>
         <name>FlexiPage</name>
     </types>
     <types>
+        <members>challengesbanner</members>
+        <members>contactUs</members>
+        <members>contactUsBanner</members>
+        <members>faq</members>
         <members>header</members>
+        <members>headerTmp</members>
         <members>homeFooter</members>
         <members>homePage</members>
         <members>loyalty</members>
+        <members>myCoursesBanner</members>
+        <members>myProfileBanner</members>
+        <members>my_Incentives_Banner</members>
+        <members>my_Rewards_Banner</members>
+        <members>termsConditions</members>
         <name>LightningComponentBundle</name>
     </types>
     <types>

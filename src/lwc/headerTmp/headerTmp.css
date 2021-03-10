@@ -1,0 +1,40 @@
+.header-tmp {
+  max-width: 1200px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 48px auto 0;
+}
+
+.header-tmp a.logo {
+  color: #404040;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.header-tmp a.logo:hover {
+  text-decoration: none;
+}
+
+.header-tmp ul.nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-tmp ul.nav li + li {
+  margin-left: 32px;
+}
+
+.header-tmp ul.nav li a {
+  color: #262626;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+@media (max-width: 1199) {
+  .header-tmp {
+    padding: 16px 0
+  }
+}
