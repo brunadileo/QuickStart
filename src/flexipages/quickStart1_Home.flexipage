@@ -3,7 +3,7 @@
     <flexiPageRegions>
         <appendable>enabled</appendable>
         <componentInstances>
-            <componentName>headerTmp</componentName>
+            <componentName>header</componentName>
         </componentInstances>
         <name>header</name>
         <prependable>enabled</prependable>
@@ -13,10 +13,10 @@
     <flexiPageRegions>
         <appendable>enabled</appendable>
         <componentInstances>
-            <componentName>contactUsBanner</componentName>
+            <componentName>homePage</componentName>
         </componentInstances>
         <componentInstances>
-            <componentName>contactUs</componentName>
+            <componentName>loyalty</componentName>
         </componentInstances>
         <name>content</name>
         <prependable>enabled</prependable>
@@ -44,7 +44,7 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>title</name>
-                <value>Contact</value>
+                <value>Home</value>
             </componentInstanceProperties>
             <componentName>forceCommunity:seoAssistant</componentName>
         </componentInstances>
@@ -53,7 +53,7 @@
         <replaceable>enabled</replaceable>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>Contact</masterLabel>
+    <masterLabel>Home</masterLabel>
     <template>
         <name>siteforce:sldsOneColLayout</name>
     </template>
