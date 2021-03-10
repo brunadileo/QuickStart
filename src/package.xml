@@ -2,14 +2,6 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>QuickStart v2</fullName>
     <types>
-        <members>quickStart1</members>
-        <name>BrandingSet</name>
-    </types>
-    <types>
-        <members>quickStart1</members>
-        <name>CommunityThemeDefinition</name>
-    </types>
-    <types>
         <members>FieloPLT__ChallengeReward__c.RebateConversionMode__c</members>
         <members>FieloPLT__ChallengeReward__c.RebateConversionValue__c</members>
         <members>FieloPLT__ChallengeReward__c.RebateFieldName__c</members>
@@ -21,12 +13,6 @@
         <members>FieloPLT__Transaction__c.Rebate__c</members>
         <members>Opportunity.SalesCycleDays__c</members>
         <name>CustomField</name>
-    </types>
-    <types>
-        <members>quickStart1_Home</members>
-        <members>quickStart1_themeLayout_Default</members>
-        <members>quickStart1_themeLayout_Login</members>
-        <name>FlexiPage</name>
     </types>
     <types>
         <members>bootstarpjsfile</members>
