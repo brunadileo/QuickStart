@@ -1,89 +1,136 @@
 <template>
-    
-    <div class="faq-section">
-        <lightning-layout multiple-rows="true" class="inner-container">       
-            <lightning-layout-item size="12">
-              <div class="faq-head">Frequently Asked <span>Questions</span></div>
-       </lightning-layout-item>
-      </lightning-layout>
-        <lightning-layout multiple-rows="true" class="inner-container">       
-            <lightning-layout-item size="12" small-device-size="12" medium-device-size="6" large-device-size="6" class="slds-p-around_small">
-                <lightning-accordion allow-multiple-sections-open
-                onsectiontoggle={handleSectionToggle}
-                active-section-name={activeSections}>
-<lightning-accordion-section name="A" label="1. Before you get started?">
-   <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed bed a horrible vermin pitifully compared.</p>
-</lightning-accordion-section>
 
-<lightning-accordion-section name="B" label="2. Versatile plans and Pricing?">
-   <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed bed a horrible vermin pitifully compared.</p>
-   <p>Nam at elit et justo scelerisque ullamcorper vel a felis.</p>
-</lightning-accordion-section>
+  <div class="faq-section">
+    <lightning-layout multiple-rows="true" class="inner-container">
+      <lightning-layout-item size="12">
+        <div class="faq-head">Frequently Asked <span>Questions</span></div>
+      </lightning-layout-item>
+    </lightning-layout>
 
-<lightning-accordion-section name="C" label="3. What it l exceed my query limit?">
-   <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed bed a horrible vermin pitifully compared.</p>
-</lightning-accordion-section>
-<lightning-accordion-section name="d" label="4. How do you calculate monthly ?">
-   <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed bed a horrible vermin pitifully compared.</p>
-    <p>Nulla ornare ipsum felis, vel aliquet dui blandit vel.</p>
- </lightning-accordion-section>
- <lightning-accordion-section name="e" label="5. Do you have any fees?">
-    <p>This is the content area for section C.</p>
-    <p>Nulla ornare ipsum felis, vel aliquet dui blandit vel.</p>
- </lightning-accordion-section>
- <lightning-accordion-section name="f" label="6. Do you have any fees?">
-    <p>This is the content area for section C.</p>
-    <p>Nulla ornare ipsum felis, vel aliquet dui blandit vel.</p>
- </lightning-accordion-section>
- <lightning-accordion-section name="g" label="7. Do you have any fees?">
-    <p>This is the content area for section C.</p>
-    <p>Nulla ornare ipsum felis, vel aliquet dui blandit vel.</p>
- </lightning-accordion-section>
-</lightning-accordion>
-            </lightning-layout-item>        
-            <lightning-layout-item size="12" small-device-size="12" medium-device-size="6" large-device-size="6" class="slds-p-around_small">
-               <lightning-accordion allow-multiple-sections-open
-               onsectiontoggle={handleSectionToggle}
-               active-section-name={activeSections}>
-<lightning-accordion-section name="A" label="8. Do you provide on premises solutions?">
-  <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed bed a horrible vermin pitifully compared.</p>
-</lightning-accordion-section>
+    <lightning-layout multiple-rows="true" class="inner-container">
+      <lightning-layout-item size="12" small-device-size="12"
+        medium-device-size="6" large-device-size="6"
+        class="slds-p-around_small">
+        <lightning-accordion allow-multiple-sections-open
+          onsectiontoggle={handleSectionToggle}
+          active-section-name={activeSections}>
+          <lightning-accordion-section name="A"
+            label="1. Before you get started ...">
+            <p>
+              Thank you for your interest and participation in
+              [Technica’s] Partner Program (the “Program”). We have
+              designed the Program specifically with you and our
+              customers in mind – i.e., to recognize and reward you for
+              your “extra-mile” efforts in helping to drive our business
+              and make our customers successful. Note that we will work
+              to continuously improve and tailor the Program to best:
+            </p>
 
-<lightning-accordion-section name="B" label="9. What it l exceed my query limit?">
-  <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed bed a horrible vermin pitifully compared.</p>
-  <p>Nam at elit et justo scelerisque ullamcorper vel a felis.</p>
-</lightning-accordion-section>
+            <ul>
+              <li>
+                meet you needs;
+              </li>
 
-<lightning-accordion-section name="C" label="10. I have more than x am, Ieligiglble for offer?">
-  <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed bed a horrible vermin pitifully compared.</p>
-</lightning-accordion-section>
-<lightning-accordion-section name="d" label="11. How the works my rewards?">
-  <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed bed a horrible vermin pitifully compared.</p>
-   <p>Nulla ornare ipsum felis, vel aliquet dui blandit vel.</p>
-</lightning-accordion-section>
-<lightning-accordion-section name="e" label="12. How the works my incentives?">
-   <p>This is the content area for section C.</p>
-   <p>Nulla ornare ipsum felis, vel aliquet dui blandit vel.</p>
-</lightning-accordion-section>
-<lightning-accordion-section name="f" label="13. How the works my courses?">
-   <p>This is the content area for section C.</p>
-   <p>Nulla ornare ipsum felis, vel aliquet dui blandit vel.</p>
-</lightning-accordion-section>
-<lightning-accordion-section name="g" label="14. How I participate?">
-   <p>This is the content area for section C.</p>
-   <p>Nulla ornare ipsum felis, vel aliquet dui blandit vel.</p>
-</lightning-accordion-section>
-</lightning-accordion>
+              <li>
+                take advantage of and hone your skills and investments;
+                and
+              </li>
 
-            </lightning-layout-item>
-        </lightning-layout>
-      </div>
+              <li>
+                grow your business and profitability
+              </li>
+            </ul>
+          </lightning-accordion-section>
 
+          <lightning-accordion-section name="B"
+            label="2. With respect to the incentives we’re being invited to participate in, what is the difference between Promotions and Challenges?">
+            <p>
+              Promotions are transaction-based incentives – you get
+              rewarded (in the form of a rebate) for each transaction.
+            </p>
 
+            <p>
+              Challenges are performance-based incentives – you get
+              rewarded (in the form of additional rebate) for the total
+              number of activities or transactions you do over the
+              Challenge time period.
+            </p>
+          </lightning-accordion-section>
 
+          <lightning-accordion-section name="C"
+            label="3. How do I get more information on the incentives we’re being invited to participate in?">
+            <p>
+              Contact your Partner Manager – he/she will be able to
+              answer your questions not addressed here. If you don’t have
+              your Partner Manager’s contact information, email us at:
+              partner-support@technica.com.
+            </p>
+          </lightning-accordion-section>
 
+          <lightning-accordion-section name="d"
+            label="4. Are rebates calculated according to the total deal value?">
+            <p>
+              Rebates are calculated for the ACV (---) line items in the
+              customer contract.
+            </p>
+          </lightning-accordion-section>
+        </lightning-accordion>
+      </lightning-layout-item>
 
-    
+      <lightning-layout-item size="12" small-device-size="12"
+        medium-device-size="6" large-device-size="6"
+        class="slds-p-around_small">
+        <lightning-accordion allow-multiple-sections-open
+          onsectiontoggle={handleSectionToggle}
+          active-section-name={activeSections}>
+          <lightning-accordion-section name="e"
+            label="5. How will we receive our rebate payments?">
+            <p>
+              We will do a direct deposit into your bank account. Please
+              contact your Partner Manager to give your account
+              information. If you don’t have your Partner Manager’s
+              contact information, email us at:
+              partner-support@technica.com.
+            </p>
+          </lightning-accordion-section>
 
-    
+          <lightning-accordion-section name="f"
+            label="6. When will we receive our rebate payments?">
+            <p>
+              For transaction-based incentives, we will calculate the
+              total rebate amount at the end of each quarter. You will
+              receive your rebate payment approximately 45 days following
+              the end of the quarter.
+            </p>
+
+            <p>
+              For performance-based incentives (i.e., based on meeting a
+              goal over a time period), you will receive your rebate
+              payment approximately 45 days following the end of the
+              incentive time period.
+            </p>
+          </lightning-accordion-section>
+
+          <lightning-accordion-section name="g"
+            label="7. How can I use badge rewards?">
+            <p>
+              Upon earning a badge, we will send you a certified badge
+              image that you can include on your website and collateral
+              to speak to your competence. As an individual, you can also
+              use the badge image on your business cards and LinkedIn
+              profile.
+            </p>
+          </lightning-accordion-section>
+
+          <lightning-accordion-section name="g"
+            label="8. How do we keep track of how we’re doing with respective to the incentives we participate in?">
+            <p>
+              Your incentive performance and reward history can be found
+              on your [ ] page.
+            </p>
+          </lightning-accordion-section>
+        </lightning-accordion>
+      </lightning-layout-item>
+    </lightning-layout>
+  </div>
 </template>

@@ -14,18 +14,44 @@
         <name>CommunityThemeDefinition</name>
     </types>
     <types>
+        <members>charts_graphs</members>
+        <name>ContentAsset</name>
+    </types>
+    <types>
+        <members>Fielo_Analytics</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
         <members>FieloPLT__ChallengeReward__c.RebateConversionMode__c</members>
         <members>FieloPLT__ChallengeReward__c.RebateConversionValue__c</members>
         <members>FieloPLT__ChallengeReward__c.RebateFieldName__c</members>
+        <members>FieloPLT__Member__c.F_Level__c</members>
+        <members>FieloPLT__Member__c.Member__c</members>
         <members>FieloPLT__Member__c.Rebate__c</members>
         <members>FieloPLT__Member__c.SalesGoal__c</members>
         <members>FieloPLT__Rule__c.RebateConversionMode__c</members>
         <members>FieloPLT__Rule__c.RebateConversionValue__c</members>
         <members>FieloPLT__Rule__c.RebateFieldName__c</members>
         <members>FieloPLT__Transaction__c.Rebate__c</members>
+        <members>FieloPLT__Transaction__c.Transaction__c</members>
         <members>Opportunity.Member__c</members>
         <members>Opportunity.SalesCycleDays__c</members>
         <name>CustomField</name>
+    </types>
+    <types>
+        <members>Fielo_Stats</members>
+        <members>Incentives_Performance</members>
+        <members>Key_Peformance_Indicatiors</members>
+        <members>Program_Performance</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>FieloAnalytics</members>
+        <members>FieloAnalytics/CVuXNlvlnNECOxuTffUUzUBhXKJboq1</members>
+        <members>FieloAnalytics/DYcoLzHXVkJmjAeUhumBltTjmbjUGj1</members>
+        <members>FieloAnalytics/EXydDbtYrIEFZoHkQgQNCLpyTesIld1</members>
+        <members>FieloAnalytics/WSszuubkqfkvCcrRrvRgFSUmZQhLCS1</members>
+        <name>Dashboard</name>
     </types>
     <types>
         <members>FieloPLT__Fielo_Templates/AcceptAgreement</members>
@@ -33,6 +59,11 @@
         <name>EmailTemplate</name>
     </types>
     <types>
+        <members>Fielo_Analytics_UtilityBar1</members>
+        <members>Fielo_Stats</members>
+        <members>Incentives_Performance</members>
+        <members>Key_Performance_Indicators</members>
+        <members>Program_Metrics</members>
         <members>quickStart1_Contact</members>
         <members>quickStart1_Course_Detail</members>
         <members>quickStart1_Course_List</members>
@@ -69,10 +100,53 @@
         <name>LightningComponentBundle</name>
     </types>
     <types>
+        <members>FieloAnalytics</members>
+        <members>FieloAnalytics/Active_Challenge_WOt</members>
+        <members>FieloAnalytics/Active_Challenge_viD</members>
+        <members>FieloAnalytics/Active_Members_grouped_by_Levels_9cG</members>
+        <members>FieloAnalytics/Active_Points_Per_Level_BmH</members>
+        <members>FieloAnalytics/Active_Points_on_the_Program_M33</members>
+        <members>FieloAnalytics/Active_Promotions_RS1</members>
+        <members>FieloAnalytics/Average_Frequency_of_Points_Gained_zEm</members>
+        <members>FieloAnalytics/Average_Recency_of_transactions_het</members>
+        <members>FieloAnalytics/Badges_Admin_Report_axE</members>
+        <members>FieloAnalytics/Challenges_Admin_Report_27o</members>
+        <members>FieloAnalytics/Inactive_Promotions_NTV</members>
+        <members>FieloAnalytics/Levels_Admin_Report_ga6</members>
+        <members>FieloAnalytics/Members_per_Month_nyE</members>
+        <members>FieloAnalytics/Missions_Admin_Report_eBa</members>
+        <members>FieloAnalytics/Point_Types_Admin_Report_1t7</members>
+        <members>FieloAnalytics/Program_Admin_Report_GZn</members>
+        <members>FieloAnalytics/Promotion_Admin_Report_Ofp</members>
+        <members>FieloAnalytics/Rules_Admin_Report_tsI</members>
+        <members>FieloAnalytics/Scheduled_Challenge_0rV</members>
+        <members>FieloAnalytics/Scheduled_Promotions_L5U</members>
+        <members>FieloAnalytics/Segments_Admin_Report_LAn</members>
+        <members>FieloAnalytics/Total_Active_Members_per_Program_Dih</members>
+        <members>FieloAnalytics/Total_Badges_Given_Regist_Incentive_gNd</members>
+        <members>FieloAnalytics/Total_Badges_Given_Training_Incentive_qqt</members>
+        <members>FieloAnalytics/Total_Fielo_Members_Report_v7D</members>
+        <members>FieloAnalytics/Total_Points_Given_Incentives_oiD</members>
+        <members>FieloAnalytics/Unique_Members_per_Rule_per_Month_Ut4</members>
+        <members>FieloAnalytics/of_Badges_qTk</members>
+        <members>FieloAnalytics/of_Banned_Members_k2h</members>
+        <members>FieloAnalytics/of_Blocked_Members_Lq5</members>
+        <members>FieloAnalytics/of_Challenges_Participants_UTo</members>
+        <members>FieloAnalytics/of_Member_with_no_Activities_AllTime_ERy</members>
+        <members>FieloAnalytics/of_Member_with_no_Activities_jkS</members>
+        <members>FieloAnalytics/of_Optout_Members_FpC</members>
+        <members>FieloPLT__Analytics/Retention_Rate_5N0</members>
+        <name>Report</name>
+    </types>
+    <types>
+        <members>Point_Type</members>
+        <name>ReportType</name>
+    </types>
+    <types>
         <members>bootstarpjsfile</members>
         <members>homePage</members>
         <members>siteAsset_493e1baa4cfe4f3f81ed26d4444d0db0</members>
         <name>StaticResource</name>
     </types>
-    <version>50.0</version>
+    <version>51.0</version>
 </Package>

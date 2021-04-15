@@ -1,15 +1,106 @@
-.termsconditions-section{ padding-top: 100px; padding-bottom: 100px;}
-.termsconditions{ font-size: 25px; text-align: left;font-weight: 500;color: #262626;margin-bottom: 20px;}
-.termsconditions-text p{ font-size: 14px; line-height:20px;font-weight: 500;color: #868686;margin-bottom: 20px;}
+.termsconditions {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 
+.termsconditions > div > div + div {
+  margin-top: 64px;
+}
 
-@media only screen and (min-width:768px) and (max-width:1024px){
-  
+.termsconditions h1 {
+  font-size: 25px;
+  text-align: left;
+  font-weight: 500;
+  color: #262626;
+  margin-bottom: 64px;
+}
+
+.termsconditions p {
+  color: #868686;
+  font-size: 16px;
+  font-weight: 500;
+  line-height:20px;
+}
+
+.termsconditions .description p + p,
+.termsconditions .disclaimer p + p {
+  margin-top: 16px;
+}
+
+.termsconditions .document {
+  column-count: 2;
+  column-gap: 16px;
+}
+
+.termsconditions .document h2 {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.termsconditions .document ol {
+  counter-reset: item;
+}
+
+.termsconditions .document li {
+  display: block;
+}
+
+.termsconditions .document li::before {
+  content: counters(item, ".");
+  counter-increment: item;
+
+  margin-right: 4px;
+
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.termsconditions .document p {
+  display: inline;
+}
+
+.termsconditions .document h2 ~ p {
+  display: block;
+}
+
+.termsconditions .document > ol > li + li {
+  margin-top: 24px;
 }
 
 
-@media only screen and (min-width:0px) and (max-width:767px){
-    .termsconditions-section{ padding: 50px 15px;}  
-    
+.termsconditions .document li ol li + li {
+  margin-top: 8px;
+  break-inside: avoid-column;
+}
 
+.termsconditions .disclaimer h2 {
+  margin-bottom: 16px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media only screen and (min-width:0px) and (max-width:767px){
+  .termsconditions {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .termsconditions > div > div + div {
+    margin-top: 32px;
+  }
+
+  .termsconditions h1 {
+    margin-bottom: 32px;
+  }
+
+  .termsconditions .document {
+    column-count: 1;
+  }
+
+  .termsconditions p {
+    font-size: 14px;
+  }
 }
